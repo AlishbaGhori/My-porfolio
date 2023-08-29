@@ -38,9 +38,30 @@ const Projects = () => {
               </p>
               <Link to="https://daraaz.netlify.app/">View Project</Link>
             </div>
+
+
+            <img
+              src="./project image 1.jpeg"
+              className="card-img-top"
+              alt="Project" style={{width: '40%',
+              height: '40%'}}
+            />
+            <div className="card-body">
+              <h5 className="card-title">About project</h5>
+              <p className="card-text">
+                calculator App
+              </p>
+              <Link to="https://iridescent-unicorn-f48b3a.netlify.app/">View Project</Link>
+            </div>
+
+           
+
+
           </div>
         </div>
       </div>
+
+
 
       <div className="container">
         <Outlet />
