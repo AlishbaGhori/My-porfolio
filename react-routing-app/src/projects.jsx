@@ -40,7 +40,7 @@ const Projects = () => {
             </div>
 
 
-            <img
+            {/* <img
               src="./project image 1.jpeg"
               className="card-img-top"
               alt="Project" style={{width: '40%',
@@ -52,7 +52,7 @@ const Projects = () => {
                 calculator App
               </p>
               <Link to="https://iridescent-unicorn-f48b3a.netlify.app/">View Project</Link>
-            </div>
+            </div> */}
 
            
 

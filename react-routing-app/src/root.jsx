@@ -69,24 +69,7 @@ const Root = () => {
       </nav>
       <div className="container">
         <Outlet />
-
-            <img
-              src="./project img 3.jpeg"
-              className="card-img-top"
-              alt="image"  style={{width: '80vh',
-              height: '50%' }}
-            />
-            <div className="card-body">
-              <h5 className="card-title">About project</h5>
-              <p className="card-text">
-                Daraz App
-              </p>
-              <Link to="https://cmsblogfrontend.vercel.app/">View Project</Link>
-            </div>
-          </div>
-  );
-
-      
+      </div>
       <footer className="footer">
         <p>&copy; 2023 AlishbaGhori. All rights reserved.</p>
         <div className="social-links">
@@ -100,8 +83,6 @@ const Root = () => {
       <BottomNav />
       {/* </> */}
       );
-
-
     </>
   );
 };

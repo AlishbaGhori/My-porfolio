@@ -64,10 +64,4 @@ const Contact = () => {
   );
 };
 
-//export default ContactForm;
-
-//     </>
-//   );
-// };
-
 export default Contact;
